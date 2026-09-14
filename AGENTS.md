@@ -17,3 +17,14 @@ Before making substantial visual changes, use the Product Design plugin's `get-c
 When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
 
 Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts/prepare-sites-build.mjs`, and `tests/sites-worker.test.mjs` intact so the same local prototype can be handed to Sites. Before a Sites handoff, run `npm run build` and `npm run test:sites`; the build must leave `dist/client/index.html`, `dist/server/index.js`, and `dist/.openai/hosting.json`.
+
+## Confirmed version 2 scope (2026-09-14)
+- Target companies and clothing brands; accept small/large, one-off/recurring orders after project assessment.
+- 1000 units was a capacity reference, NOT a minimum order. Exact capacity and minimum remain unconfirmed: publish neither figure.
+- Assess varied garment complexity; do not restrict the business to simple cuts.
+- Customer-supplied materials or sourcing by agreement. Customers may start with an idea; determine preparation/sample scope individually.
+- Individual pricing, timing, payment and delivery. Quality checks during production and for every finished garment.
+- Branding applies to our production and customer-provided garments. Techniques and marking scope remain unconfirmed.
+- Real photos/reviews exist but have not been supplied here. Keep current imagery explicitly illustrative; do not invent case studies.
+- Website/email enquiries are intended; Telegram bot later. Contacts and legal details await confirmation. Keep the current brief preparation honestly local until delivery is connected.
+- User explicitly authorized version 2 implementation and push to main.
