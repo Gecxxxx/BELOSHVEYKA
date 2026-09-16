@@ -28,3 +28,16 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Real photos/reviews exist but have not been supplied here. Keep current imagery explicitly illustrative; do not invent case studies.
 - Website/email enquiries are intended; Telegram bot later. Contacts and legal details await confirmation. Keep the current brief preparation honestly local until delivery is connected.
 - User explicitly authorized version 2 implementation and push to main.
+
+## Confirmed version 3 scope (2026-09-16; overrides earlier scope where different)
+- The user approved catalog/product pages alongside custom sewing, branding, services, projects/reviews, ordering and contacts. No cart or payment gateway is requested.
+- Assortment orders start at 10 units; non-assortment sewing starts at 200 units total. Do not invent per-model/color/size aggregation rules.
+- 100% prepayment by invoice or cash through the individual entrepreneur. Assortment lead time: up to 3 working days; confirm its start and scope individually. Other sewing is quoted after reviewing all available specifications.
+- Pickup only, from production/warehouse at Lipkinskoye shosse, s27/L. Public phone: +7 (916) 237-15-59 only. Do not use old certificate phones as sales contacts or invent opening hours.
+- Urgent warehouse orders with branding: +20% to the invoice, same-day dispatch subject to manager agreement. No invented order cutoff.
+- T-shirts and footwear are bought-in. Signal vests include bought-in and own production; exact SKU origin is unconfirmed. Remaining catalog products are own production.
+- Prices come from the existing shop, confirmed current by the client. Stock must always be confirmed. Footwear volume discounts are individually quoted.
+- Real photos from the user-provided Yandex Disk are approved for use. Optimize selected images to local WebP and retain provenance in docs/photo-manifest.json. Product photos alone are not completed client case studies.
+- Supplied certificate covers only specified cotton first-layer knitwear marked Beloshveyka. Do not use it as certification of the entire stock, protective workwear or third-party garments.
+- The current order brief remains local, with explicit manual email/Avito handoff. No server recipient credentials were supplied; do not fake submission, file upload or success states. Telegram integration remains later.
+- Version 3 implementation and push to GitHub are explicitly authorized. Keep the approved thin typography and industrial black/off-white/yellow style.

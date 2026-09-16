@@ -1,0 +1,128 @@
+[
+  {
+    "name": "workwear",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7980.jpg",
+    "originalBytes": 8126832,
+    "webBytes": 37526,
+    "smallBytes": 11916,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "overalls",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7978.jpg",
+    "originalBytes": 7082260,
+    "webBytes": 35146,
+    "smallBytes": 11010,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-black",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7984.jpg",
+    "originalBytes": 10386696,
+    "webBytes": 58844,
+    "smallBytes": 17024,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-orange",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7958.jpg",
+    "originalBytes": 10374103,
+    "webBytes": 60232,
+    "smallBytes": 17870,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-blue",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7991.jpg",
+    "originalBytes": 10535439,
+    "webBytes": 58246,
+    "smallBytes": 17306,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-red",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7966.jpg",
+    "originalBytes": 10048232,
+    "webBytes": 46576,
+    "smallBytes": 14542,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-green",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7972.jpg",
+    "originalBytes": 9895992,
+    "webBytes": 49996,
+    "smallBytes": 14338,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-signal-black",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7999.jpg",
+    "originalBytes": 10395446,
+    "webBytes": 49140,
+    "smallBytes": 14632,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-yellow",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7944.jpg",
+    "originalBytes": 10300142,
+    "webBytes": 53950,
+    "smallBytes": 16408,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "vest-signal-orange",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7951.jpg",
+    "originalBytes": 10254279,
+    "webBytes": 49604,
+    "smallBytes": 15922,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "workwear-black",
+    "source": "/113.13 Спец.одежда/113.13 Спец.одежда/113.13 Спец.одежда - 24.03.25 - 30к/готово правки/IMG_7936.jpg",
+    "originalBytes": 8469872,
+    "webBytes": 32224,
+    "smallBytes": 10518,
+    "width": 1350,
+    "height": 1800
+  },
+  {
+    "name": "detail",
+    "source": "/Фото базовые ткани/фото3 (2).jpg",
+    "originalBytes": 690773,
+    "webBytes": 238984,
+    "smallBytes": 85110,
+    "width": 1150,
+    "height": 1150
+  },
+  {
+    "name": "fabric-blue",
+    "source": "/Фото базовые ткани/фото4.jpg",
+    "originalBytes": 777437,
+    "webBytes": 306954,
+    "smallBytes": 103036,
+    "width": 1150,
+    "height": 1150
+  },
+  {
+    "name": "apparel",
+    "source": "/Фото базовые ткани/фото5 (1).jpg",
+    "originalBytes": 716705,
+    "webBytes": 251428,
+    "smallBytes": 87932,
+    "width": 1150,
+    "height": 1150
+  }
+]
