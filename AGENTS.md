@@ -57,3 +57,5 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Preserve smaller, quiet typography and all confirmed v3 commercial conditions.
 
 - Homepage assortment preview: frame all four models consistently from head to upper thighs. Enlarge/crop original full-length photos for product IDs 325 and 351 in this block; preserve full product views in the catalog and product galleries.
+
+- Homepage reviews use a calm, garment-detail still life instead of another model portrait; concept imagery remains explicitly labeled.

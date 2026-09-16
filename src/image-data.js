@@ -143,5 +143,10 @@ export const imageMeta = {
     "width": 1200,
     "height": 1600,
     "smallWidth": 600
+  },
+  "concept/reviews-detail": {
+    "width": 1000,
+    "height": 1000,
+    "smallWidth": 500
   }
 };
