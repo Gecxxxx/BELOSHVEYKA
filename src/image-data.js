@@ -83,5 +83,65 @@ export const imageMeta = {
     "width": 1254,
     "height": 1254,
     "smallWidth": 640
+  },
+  "concept/pattern-table": {
+    "width": 1280,
+    "height": 960,
+    "smallWidth": 640
+  },
+  "concept/branding-layout": {
+    "width": 1280,
+    "height": 960,
+    "smallWidth": 640
+  },
+  "concept/uniform-set": {
+    "width": 1280,
+    "height": 960,
+    "smallWidth": 640
+  },
+  "concept/merch-set": {
+    "width": 1280,
+    "height": 960,
+    "smallWidth": 640
+  },
+  "concept/order-parcel": {
+    "width": 1280,
+    "height": 960,
+    "smallWidth": 640
+  },
+  "real/vest-insulated-side": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/signal-orange-side": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/signal-yellow-back": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/workwear-back": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/orange-suit-back": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/vest-red-side": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
+  },
+  "real/vest-green-side": {
+    "width": 1200,
+    "height": 1600,
+    "smallWidth": 600
   }
 };

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "concept/pattern-table",
+    "asset": "/assets/concept/pattern-table.webp",
+    "smallAsset": "/assets/concept/pattern-table-small.webp",
+    "type": "AI illustration, built-in image_gen",
+    "bytes": 133868,
+    "smallBytes": 30882
+  },
+  {
+    "name": "concept/branding-layout",
+    "asset": "/assets/concept/branding-layout.webp",
+    "smallAsset": "/assets/concept/branding-layout-small.webp",
+    "type": "AI illustration, built-in image_gen",
+    "bytes": 135838,
+    "smallBytes": 27332
+  },
+  {
+    "name": "concept/uniform-set",
+    "asset": "/assets/concept/uniform-set.webp",
+    "smallAsset": "/assets/concept/uniform-set-small.webp",
+    "type": "AI illustration, built-in image_gen",
+    "bytes": 69632,
+    "smallBytes": 14556
+  },
+  {
+    "name": "concept/merch-set",
+    "asset": "/assets/concept/merch-set.webp",
+    "smallAsset": "/assets/concept/merch-set-small.webp",
+    "type": "AI illustration, built-in image_gen",
+    "bytes": 65468,
+    "smallBytes": 13612
+  },
+  {
+    "name": "concept/order-parcel",
+    "asset": "/assets/concept/order-parcel.webp",
+    "smallAsset": "/assets/concept/order-parcel-small.webp",
+    "type": "AI illustration, built-in image_gen",
+    "bytes": 68506,
+    "smallBytes": 17872
+  }
+]

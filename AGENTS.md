@@ -48,3 +48,10 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Exactly eight primary pages: home, available clothing, custom sewing, logo application, services, cases/reviews, ordering, contacts. Home is reached through the brand; other seven must be in navigation. Supporting product/category/document routes remain.
 - The requested photo brief is maintained in docs/photo-brief.md. Do not invent real production scenes, branding methods, client stories or opening hours.
 - Do not repeat the model photo between homepage Conditions and Directions. Directions opens with the garment-only blue vest composition; Conditions retains the black/lime workwear model.
+
+## Version 4 photography (2026-09-16)
+- User requests varied, logically assigned imagery throughout the site; new AI illustrations in the established style are authorized, as is pushing the next version.
+- `src/visuals.js` owns explicit page, service, category and gallery image choices. Never restore a shared default model in PageHero or Photo.
+- All five Directions tabs have different images; homepage Conditions keeps its own image. Service galleries must match their service, not inherit the workwear gallery.
+- New concept still lifes are labeled AI illustrations. They do not establish completed orders, actual equipment, branding techniques or a photographed facility. Utility pages may have text-only heroes.
+- Preserve smaller, quiet typography and all confirmed v3 commercial conditions.

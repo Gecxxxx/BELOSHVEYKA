@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile,access} from 'node:fs/promises';
 import {pages,services} from '../src/data.js';
+import {pageVisuals,serviceVisuals,catalogVisuals} from '../src/visuals.js';
 test('All routes have prerendered content and unique metadata',async()=>{
  const titles=new Set();
  for(const [path,[title]] of Object.entries(pages)){
@@ -23,7 +24,7 @@ test('Every internal link resolves to a built route or existing section',async()
 });
 test('Service pages have individual content and required assets',async()=>{
  assert.equal(services.length,5);
- for(const s of services){await access('public/assets/'+s.image+'.webp');assert.ok(s.details.length===3)}
+ for(const s of services){for(const name of [serviceVisuals[s.slug].image,serviceVisuals[s.slug].directionImage])await access('public/assets/'+name+'.webp');assert.ok(s.details.length===3)}
 });
 
 test('Every rendered image is a non-empty local file and old sales phones are absent',async()=>{
@@ -50,4 +51,12 @@ test('Catalog has independent product pages and no automatic stock promises',asy
   assert.ok(html.includes('?product='+p.id));
  }
  const pdf=await readFile('dist/client/documents/certificate-beloshveyka.pdf');assert.equal(pdf.subarray(0,4).toString(),'%PDF');
+});
+
+// Regression: no shared model fallback across unrelated sections.
+test('Page and direction visuals are explicitly assigned and distinct',()=>{
+ const headers=[...Object.values(pageVisuals),...Object.values(serviceVisuals),...Object.entries(catalogVisuals).filter(([key])=>key!=='all').map(([,value])=>value)];
+ assert.equal(new Set(headers.map(v=>v.image)).size,headers.length);
+ assert.ok(headers.every(v=>v.imageAlt?.length>10));
+ assert.equal(new Set(Object.values(serviceVisuals).map(v=>v.directionImage)).size,5);
 });
