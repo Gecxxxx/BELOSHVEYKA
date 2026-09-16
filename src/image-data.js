@@ -148,5 +148,10 @@ export const imageMeta = {
     "width": 1000,
     "height": 1000,
     "smallWidth": 500
+  },
+  "concept/production-workshop": {
+    "width": 1024,
+    "height": 1280,
+    "smallWidth": 512
   }
 };

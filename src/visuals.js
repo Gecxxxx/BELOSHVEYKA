@@ -9,7 +9,7 @@ export const pageVisuals = {
   about: { image: 'real/fabric-blue', imageAlt: 'Образцы тканей для согласования материала изделия' },
 };
 export const serviceVisuals = {
-  workwear: { image: 'real/signal-orange-side', imageAlt: 'Сигнальный жилет — боковой ракурс из съёмки компании', directionImage: 'editorial/vest-still', directionAlt: 'Предметная композиция сигнального жилета' },
+  workwear: { image: 'editorial/workwear-dark', imageAlt: 'Рабочий костюм на чёрном фоне — художественная обработка фотографии', directionImage: 'editorial/vest-still', directionAlt: 'Предметная композиция сигнального жилета' },
   uniform: { image: 'concept/uniform-set', imageAlt: 'Поло и фартук как пример корпоративной формы — ИИ-иллюстрация', directionImage: 'concept/uniform-set', directionAlt: 'Иллюстрация корпоративной формы: поло и фартук' },
   basic: { image: 'catalog/364-2', imageAlt: 'Футболка из ассортимента — пример базового изделия', directionImage: 'catalog/373-1', directionAlt: 'Базовая чёрная футболка из ассортимента' },
   merch: { image: 'concept/merch-set', imageAlt: 'Худи, футболка и бирка — ИИ-иллюстрация мерча', directionImage: 'concept/merch-set', directionAlt: 'Иллюстрация мерча: худи, футболка и бирка' },

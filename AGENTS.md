@@ -59,3 +59,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Homepage assortment preview: frame all four models consistently from head to upper thighs. Enlarge/crop original full-length photos for product IDs 325 and 351 in this block; preserve full product views in the catalog and product galleries.
 
 - Homepage reviews use a calm, garment-detail still life instead of another model portrait; concept imagery remains explicitly labeled.
+
+## Materials and production update
+- User wants dimensional fabric samples with slight hover enlargement. Preserve all original label text by using unaltered real sample photos as CSS 3D surfaces; enable full-size viewing by mouse, touch and keyboard. Respect reduced motion.
+- User requests a production scene on the homepage again, overriding the older production-omission preference for the hero. Use a labeled generic workshop illustration; place the approved dark-background model on the workwear service page.

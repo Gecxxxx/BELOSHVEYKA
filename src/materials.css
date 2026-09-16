@@ -1,0 +1,53 @@
+.materials-section { overflow: hidden; }
+.materials-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; align-items: start; }
+.materials-intro p { color: #657067; max-width: 600px; }
+.materials-intro p:first-child { margin-top: 0; }
+.material-samples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3vw; margin-top: 30px; }
+.fabric-sample { margin: 0; min-width: 0; }
+.fabric-stage { perspective: 1100px; padding: 26px 17px 38px; }
+.fabric-object { position: relative; display: block; width: 100%; padding: 0; border: 0; background: none; aspect-ratio: 1; cursor: zoom-in; transform-style: preserve-3d; transform: rotateX(9deg) rotateY(-8deg) rotateZ(var(--rest-angle)); transition: transform .32s cubic-bezier(.2,.7,.2,1); }
+.fabric-layer { position: absolute; inset: 0; background: var(--fabric-tone); border: 1px solid #ffffff24; pointer-events: none; }
+.fabric-layer-back { transform: translate3d(9px, 13px, -10px) rotateZ(3deg); background: #45534d; box-shadow: 8px 20px 28px #18232224; }
+.fabric-layer-middle { transform: translate3d(4px, 6px, -5px) rotateZ(-1deg); box-shadow: 2px 4px 5px #1115; }
+.fabric-face { position: absolute; inset: 0; display: block; transform: translateZ(1px); background: var(--fabric-tone); box-shadow: 1px 2px 0 #172a35, 2px 3px 0 #486174, 3px 4px 0 #172a35, 0 10px 20px #13202b20; }
+.fabric-face img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.fabric-sample figcaption { display: flex; justify-content: space-between; gap: 12px; align-items: center; border-top: 1px solid #d5d7cc; padding: 18px 3px 0; }
+.fabric-sample figcaption small { color: #727b73; font-size: 10px; }
+.fabric-sample figcaption h3 { font: 400 21px/1.4 Manrope, sans-serif; letter-spacing: -.025em; margin: 8px 0 0; }
+.fabric-sample figcaption svg { flex-shrink: 0; color: #8b8e71; }
+.materials-hint { color: #737b72; font-size: 12px; margin: 32px 0 0; }
+.fabric-object:focus-visible { outline: 2px solid #96801c; outline-offset: 10px; transform: translateY(-6px) scale(1.035); }
+@media(hover:hover) and (pointer:fine) {
+ .fabric-stage:hover .fabric-object { transform: translateY(-7px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) rotateZ(0deg) scale(1.035); }
+}
+.fabric-dialog { padding: 0; border: 0; background: #f4f3ee; color: #191d1a; width: min(850px, 94vw); max-width: 94vw; max-height: 94dvh; overflow: auto; }
+.fabric-dialog::backdrop { background: #101815cc; backdrop-filter: blur(5px); }
+.fabric-dialog-content { padding: 22px; }
+.fabric-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 18px; }
+.fabric-dialog-heading h2 { font-size: 22px; margin: 0; }
+.fabric-dialog-heading button { display: grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; border: 1px solid #c8ccc0; background: transparent; color: inherit; cursor: pointer; }
+.fabric-dialog-content>img { width: 100%; height: auto; max-height: 73dvh; object-fit: contain; }
+.fabric-dialog-content>p { color: #677168; font-size: 12px; margin: 16px 0 0; }
+.hero-photo.production-photo img { width: 100%; object-fit: cover; object-position: center; mask-image: linear-gradient(to right, transparent, #000 12%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 5%, #000 92%, transparent); }
+.hero-photo.production-photo>span { background: #171a19c9; padding: 6px 9px; right: 12px; }
+.page-hero-visual.dark-portrait { height: 420px; background: #1b1c1c; }
+.page-hero-visual.dark-portrait img { height: 100%; mix-blend-mode: normal; object-fit: contain; mask-image: none; }
+.page-hero-visual.dark-portrait figcaption { color: #b9bfb8; background: #171a19d9; padding: 7px; }
+@media(max-width:800px) {
+ .materials-intro { grid-template-columns: 1fr; gap: 18px; }
+ .material-samples { gap: 16px; margin-top: 16px; }
+ .fabric-stage { padding: 20px 10px 28px; }
+ .fabric-sample figcaption h3 { font-size: 17px; }
+ .page-hero-visual.dark-portrait { height: 340px; }
+ .hero-photo.production-photo img { object-position: center 62%; }
+}
+@media(max-width:600px) {
+ .material-samples { grid-template-columns: 1fr; gap: 32px; max-width: 380px; margin-inline: auto; }
+ .fabric-stage { padding-inline: 20px; }
+ .fabric-dialog-content { padding: 14px; }
+ .fabric-dialog-heading h2 { font-size: 19px; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .fabric-object { transition: none; }
+ .fabric-stage:hover .fabric-object, .fabric-object:focus-visible { transform: rotateX(9deg) rotateY(-8deg) rotateZ(var(--rest-angle)); }
+}
