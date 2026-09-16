@@ -63,3 +63,6 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 ## Materials and production update
 - User wants dimensional fabric samples with slight hover enlargement. Preserve all original label text by using unaltered real sample photos as CSS 3D surfaces; enable full-size viewing by mouse, touch and keyboard. Respect reduced motion.
 - User requests a production scene on the homepage again, overriding the older production-omission preference for the hero. Use a labeled generic workshop illustration; place the approved dark-background model on the workwear service page.
+
+## Persistent request widget
+- User chose the first mock: compact safety-yellow square, dark document/pencil icon, bottom-right on every page and device. Tooltip on hover/keyboard focus; local request form takes priority, otherwise use /how-to-order/#request. Preserve reduced motion and touch safe areas.
