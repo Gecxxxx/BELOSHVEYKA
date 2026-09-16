@@ -235,3 +235,18 @@ strong { font-weight: 500; }
  .directions figure.scene { height: auto; }
  .directions figure.scene img { max-height: 360px; }
 }
+
+/* Match the waist-up framing of the vests in the homepage assortment row. */
+.catalog-preview [data-product-id="325"] .product-card-photo img,
+.catalog-preview [data-product-id="351"] .product-card-photo img {
+  position: absolute;
+  width: 165%;
+  height: 165%;
+  max-width: none;
+  left: -32.5%;
+  top: -11%;
+  object-fit: cover;
+}
+@media(max-width:800px) {
+  .catalog-preview .product-card-photo>span { top: auto; bottom: 7px; }
+}

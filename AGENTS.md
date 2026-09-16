@@ -55,3 +55,5 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - All five Directions tabs have different images; homepage Conditions keeps its own image. Service galleries must match their service, not inherit the workwear gallery.
 - New concept still lifes are labeled AI illustrations. They do not establish completed orders, actual equipment, branding techniques or a photographed facility. Utility pages may have text-only heroes.
 - Preserve smaller, quiet typography and all confirmed v3 commercial conditions.
+
+- Homepage assortment preview: frame all four models consistently from head to upper thighs. Enlarge/crop original full-length photos for product IDs 325 and 351 in this block; preserve full product views in the catalog and product galleries.
