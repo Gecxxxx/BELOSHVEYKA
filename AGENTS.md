@@ -47,3 +47,4 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Quiet typography: Manrope 400 for sentence-case headings, smaller display sizes, restrained accents; Oswald remains only in the wordmark. No dense uppercase display text.
 - Exactly eight primary pages: home, available clothing, custom sewing, logo application, services, cases/reviews, ordering, contacts. Home is reached through the brand; other seven must be in navigation. Supporting product/category/document routes remain.
 - The requested photo brief is maintained in docs/photo-brief.md. Do not invent real production scenes, branding methods, client stories or opening hours.
+- Do not repeat the model photo between homepage Conditions and Directions. Directions opens with the garment-only blue vest composition; Conditions retains the black/lime workwear model.
