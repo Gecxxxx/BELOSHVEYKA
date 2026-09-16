@@ -1,0 +1,52 @@
+.request-widget {
+  position: fixed;
+  right: max(24px, env(safe-area-inset-right));
+  bottom: calc(24px + env(safe-area-inset-bottom));
+  z-index: 9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #ffda18;
+  border-radius: 4px;
+  background: #ffda18;
+  color: #171a19;
+  box-shadow: 0 5px 18px #00000026;
+  text-decoration: none;
+  transition: background-color .18s, box-shadow .18s;
+  -webkit-tap-highlight-color: transparent;
+}
+.request-widget:focus-visible {
+  outline: 2px solid #171a19;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px #fff;
+}
+.request-widget-tooltip {
+  position: absolute;
+  right: calc(100% + 12px);
+  padding: 11px 14px;
+  border-radius: 4px;
+  background: #262827;
+  color: #fff;
+  font: 400 13px/1.4 Manrope, Arial, sans-serif;
+  white-space: nowrap;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .18s, visibility .18s;
+}
+.request-widget:focus-visible .request-widget-tooltip { visibility: visible; opacity: 1; }
+@media (hover: hover) and (pointer: fine) {
+  .request-widget:hover { background: #ffe24a; box-shadow: 0 7px 22px #00000033; }
+  .request-widget:hover .request-widget-tooltip { visibility: visible; opacity: 1; }
+}
+@media (max-width: 600px) {
+  .request-widget { width: 48px; height: 48px; right: max(16px, env(safe-area-inset-right)); bottom: calc(16px + env(safe-area-inset-bottom)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .request-widget, .request-widget-tooltip { transition: none; }
+}
+
+/* Reserve space for the persistent action below legal links. */
+.footer-legal { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
