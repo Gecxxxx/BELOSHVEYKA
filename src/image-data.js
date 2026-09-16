@@ -68,5 +68,20 @@ export const imageMeta = {
     "width": 1350,
     "height": 1800,
     "smallWidth": 600
+  },
+  "editorial/workwear-dark": {
+    "width": 1122,
+    "height": 1402,
+    "smallWidth": 640
+  },
+  "editorial/workwear-light": {
+    "width": 1122,
+    "height": 1402,
+    "smallWidth": 640
+  },
+  "editorial/vest-still": {
+    "width": 1254,
+    "height": 1254,
+    "smallWidth": 640
   }
 };

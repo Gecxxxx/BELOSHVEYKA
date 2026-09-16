@@ -41,3 +41,9 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Supplied certificate covers only specified cotton first-layer knitwear marked Beloshveyka. Do not use it as certification of the entire stock, protective workwear or third-party garments.
 - The current order brief remains local, with explicit manual email/Avito handoff. No server recipient credentials were supplied; do not fake submission, file upload or success states. Telegram integration remains later.
 - Version 3 implementation and push to GitHub are explicitly authorized. Keep the approved thin typography and industrial black/off-white/yellow style.
+
+## Visual refinement after v3 (2026-09-16)
+- User requests natural poses, selectively removed backgrounds/people, dark and light photographs that match their sections. Built-in ImageGen edits are allowed. Keep original catalog photos, use edited versions only in editorial blocks and record provenance.
+- Quiet typography: Manrope 400 for sentence-case headings, smaller display sizes, restrained accents; Oswald remains only in the wordmark. No dense uppercase display text.
+- Exactly eight primary pages: home, available clothing, custom sewing, logo application, services, cases/reviews, ordering, contacts. Home is reached through the brand; other seven must be in navigation. Supporting product/category/document routes remain.
+- The requested photo brief is maintained in docs/photo-brief.md. Do not invent real production scenes, branding methods, client stories or opening hours.

@@ -1,0 +1,29 @@
+[
+  {
+    "asset": "/assets/editorial/workwear-dark.webp",
+    "original": "/assets/real/workwear.webp",
+    "method": "Built-in image_gen, edited from the company photograph",
+    "treatment": "Графитовый фон, естественная поза, мягкий боковой свет.",
+    "usage": "Marketing blocks only; product galleries retain originals",
+    "bytes": 43972,
+    "smallBytes": 16900
+  },
+  {
+    "asset": "/assets/editorial/workwear-light.webp",
+    "original": "/assets/real/workwear-black.webp",
+    "method": "Built-in image_gen, edited from the company photograph",
+    "treatment": "Светлый фон, естественная поза с поправлением манжеты, контактная тень.",
+    "usage": "Marketing blocks only; product galleries retain originals",
+    "bytes": 36040,
+    "smallBytes": 13974
+  },
+  {
+    "asset": "/assets/editorial/vest-still.webp",
+    "original": "/assets/real/vest-blue.webp",
+    "method": "Built-in image_gen, edited from the company photograph",
+    "treatment": "Предметная композиция жилета без модели на светлом фоне.",
+    "usage": "Marketing blocks only; product galleries retain originals",
+    "bytes": 83138,
+    "smallBytes": 20152
+  }
+]
